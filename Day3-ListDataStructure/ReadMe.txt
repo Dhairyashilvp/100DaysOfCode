@@ -1,6 +1,7 @@
- This is my 3rd Day of 100Days of code 
- Today I studied and implemented all methods of [list] Datastructure in python.
-
+This is my 3rd Day of 100Days of code 
+Today I studied and implemented all methods of [list] Datastructure in python.
+I studied that list ccan be used as Array, Stack, Queue, Matrix, 
+Source:https://docs.python.org/3/tutorial/datastructures.html
  ---------------------------------------------
 |to run simply use: python .\allListMethods.py |
  ---------------------------------------------
