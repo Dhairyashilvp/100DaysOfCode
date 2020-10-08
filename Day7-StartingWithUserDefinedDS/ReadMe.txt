@@ -7,6 +7,7 @@ A queue is also a linear data structure which is based on the principle of First
 Source:https://www.edureka.co/blog/data-structures-in-python/
 https://www.geeksforgeeks.org/stack-and-queues-in-python/
  ---------------------------------------------
-|to run simply use: python .\allSetsMethods.py |
+|to run simply use: python .\stackDS.py       |
+|to run simply use: python .\queueDS.py       |
  ---------------------------------------------
 :)
