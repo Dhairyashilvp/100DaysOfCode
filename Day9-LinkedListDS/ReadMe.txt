@@ -7,5 +7,7 @@ https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm
 |to run simply use: python .\createLinkedList.py       |
 |to run simply use: python .\traverceLinkedList.py     |
 |to run simply use: python .\insertion.py              |
+|to run simply use: python .\removeFromLL.py           |
+|to run simply use: python .\insertionAtEnd.py         |
  ------------------------------------------------------
 :)
