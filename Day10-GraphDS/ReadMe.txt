@@ -5,9 +5,9 @@ Source:https://www.edureka.co/blog/data-structures-in-python/
 https://www.geeksforgeeks.org/generate-graph-using-dictionary-python/
  -----------------------------------------------------
 |to run simply use: python .\validatingGraph.py       |
-|to run simply use: python .\traverceLinkedList.py    |
-|to run simply use: python .\insertion.py             |
-|to run simply use: python .\removeFromLL.py          |
+|to run simply use: python .\generateFirstPath.py    |
+|to run simply use: python .\generateAllPath.py             |
+|to run simply use: python .\generateShortestPath.py          |
  -----------------------------------------------------
 :)
 PS: I do not copy paset the programs.
