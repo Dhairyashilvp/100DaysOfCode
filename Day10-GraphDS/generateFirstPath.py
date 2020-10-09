@@ -20,7 +20,3 @@ def findPath(graph, start, end, path=[]):
 
 #function call to print the path
 print(findPath(graph, 'd', 'c'))
-
-            
-        
-
