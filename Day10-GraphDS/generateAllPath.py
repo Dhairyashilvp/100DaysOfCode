@@ -6,7 +6,7 @@ graph ={
 	'd':['a', 'd'],
 	'e':['b', 'c']
 }
- 
+
 # function to generate all possible paths
 def find_all_paths(graph, start, end, path =[]):
 	path = path + [start]

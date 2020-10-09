@@ -24,6 +24,6 @@ addEdge(graph,'e','b')
 addEdge(graph,'d','c')
 addEdge(graph,'e','c')
 
-print(*graph)
+print(graph)
 # Function call to print generated graph
 print(generate_edges(graph))

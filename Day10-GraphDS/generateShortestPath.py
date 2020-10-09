@@ -6,7 +6,7 @@ graph ={
     'd':['a', 'd'],
     'e':['b', 'c']
 }
- 
+
 # function to find the shortest path
 def find_shortest_path(graph, start, end, path =[]):
         path = path + [start]

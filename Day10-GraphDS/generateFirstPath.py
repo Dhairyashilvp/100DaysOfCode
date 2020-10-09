@@ -6,6 +6,7 @@ graph = {
     'd': ['a', 'd'],
     'e': ['b', 'c']
 }
+
 # function to find path
 def findPath(graph, start, end, path=[]):
     path = path + [start]
