@@ -1,6 +1,5 @@
 This is my 12th Day of 100Days of code 
-Today I Developed:
-project is to download the entire Youtube playlist in audio format.
+Today I Solver Codechef problem (https://www.codechef.com/LTIME83B/problems/FFL):
 
 Input:
 1)The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
@@ -12,10 +11,18 @@ Output:
 For each test case, print a single line containing the string "yes" if it is possible to build a complete team or "no" otherwise (without quotes).
 
 Referances:
-https://www.geeksforgeeks.org/youtube-mediaaudio-download-using-python-pafy/?ref=rp
-https://www.geeksforgeeks.org/youtube-data-api-for-handling-videos-set-1/?ref=rp
+https://www.codechef.com/LTIME83B/problems/FFL
 
  -------------------------------------------------
 |to run simply use: python .\problemCode-FFL.py  |
  -------------------------------------------------
+Example Input:
+2
+4 90
+3 8 6 5
+0 1 1 0
+4 90
+5 7 6 5
+0 1 1 0
+
 :)
