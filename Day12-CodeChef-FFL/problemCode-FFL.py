@@ -32,5 +32,8 @@ while T > 0 :
                 break
             else:
                 pass
-    
+    if flag == 1:
+        print("yes")
+    else:
+        print("no")
     T -= 1
