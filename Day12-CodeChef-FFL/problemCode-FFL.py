@@ -25,5 +25,12 @@ while T > 0 :
             c += 1
         else:
             pass
+    for value in d:
+        for val in f:
+            if int(value) + int(val) <= mm:
+                flag = 1
+                break
+            else:
+                pass
     
     T -= 1
