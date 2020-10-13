@@ -1,1 +1,8 @@
 #coins
+dic = {0:0}
+def process(n):
+    if n in dic:
+        return dic[n]
+    else:
+        dic[n] = max(n, process(n//2) + process(n//3) + process(n//4))
+        return dic[n]
