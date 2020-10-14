@@ -11,5 +11,6 @@ https://leetcode.com/problems/running-sum-of-1d-array/
 |to run simply use: python .\runninsSumUsingFor.py  |
 |to run simply use: python .\runningSumOneLiner.py  |
 |to run simply use: python .\rsListCompri.py        |
+|to run simply use: python .\rsmemoryOptimised.py   |
  ---------------------------------------------------
 :)
