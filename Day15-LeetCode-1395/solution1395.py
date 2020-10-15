@@ -8,3 +8,6 @@ class Solution:
                     if (rating[i] < rating[j] and rating[j] < rating[k]) or (rating[i] > rating[j] and rating[j] > rating[k]) :
                         ans.append((rating[i], rating[j], rating[k]))
         return len(ans)
+rating = [2,5,3,4,1]
+fc = Solution()
+print(fc.numTeams(rating))
