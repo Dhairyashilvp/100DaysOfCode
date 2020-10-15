@@ -8,9 +8,7 @@ Referances:
 https://leetcode.com/problems/count-number-of-teams/
 
  ---------------------------------------------------
-|to run simply use: python .\runninsSumUsingFor.py  |
-|to run simply use: python .\runningSumOneLiner.py  |
-|to run simply use: python .\rsListCompri.py        |
-|to run simply use: python .\rsmemoryOptimised.py   |
+|to run simply use: python .\solution1395.py        |
+|to run simply use: python .\oneLinerSolution.py    |
  ---------------------------------------------------
 :)
