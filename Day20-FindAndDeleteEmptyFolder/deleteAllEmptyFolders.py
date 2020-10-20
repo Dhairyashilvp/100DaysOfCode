@@ -32,6 +32,21 @@ def main():
     global selecteddir
     ipfromuser()
     listOfEmptyDirs = checkEmpty()
-    
+    if len(listOfEmptyDirs) > 0:
+        print(listOfEmptyDirs)
+        decision = int(input("Please enter 1 to Delete all above empty folders::"))
+        if decision == 1:
+            while True:
+                listOfEmptyDirs = checkEmpty()
+                if len(listOfEmptyDirs) > 0:
+                    for dirtor in listOfEmptyDirs:
+                        os.rmdir(dirtor)
+                        print(dirtor,"is Removed")
+                else:
+                    break
+        else:
+            print("No files are deleted :)")
+    else:
+        print("Congrulations you have no Empty Dirctories in "+selecteddir+". _/\\_")
 if __name__ == '__main__':
     main()
