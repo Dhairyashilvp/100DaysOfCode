@@ -21,10 +21,17 @@ def ipfromuser():
             pass
     # return selecteddir        
 
-
+def checkEmpty():
+    global selecteddir
+    listOfEmptyDirs = []
+    for (dirpath, dirnames, filenames) in os.walk(selecteddir):
+        if len(dirnames) == 0 and len(filenames) == 0 :
+            listOfEmptyDirs.append(dirpath)
+    return listOfEmptyDirs
 def main():
     global selecteddir
     ipfromuser()
+    listOfEmptyDirs = checkEmpty()
     
 if __name__ == '__main__':
     main()
