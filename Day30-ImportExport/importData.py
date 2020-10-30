@@ -23,6 +23,7 @@ for rd in rdata:
         my_data_dict.update({rd[0]:rd[2]})
     else:
         pass
+sort_orders_dict = sorted(my_data_dict.items(), key=lambda x: x[1], reverse=True)
 for (key, value) in sorted(my_data_dict.items(), key=lambda x: x[1], reverse=True):
     pieLabels.append(key)
     share.append(value)
