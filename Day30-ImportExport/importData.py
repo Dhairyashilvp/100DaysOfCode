@@ -32,3 +32,6 @@ for (key, value) in sorted(my_data_dict.items(), key=lambda x: x[1], reverse=Tru
         i += 1
 pieLabels.append("Other Countries")
 share.append(100 - sum(share))
+
+with open('data.json', 'w') as outfile:
+    json.dump(sort_orders_dict, outfile)
