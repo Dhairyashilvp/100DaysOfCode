@@ -35,3 +35,9 @@ share.append(100 - sum(share))
 
 with open('data.json', 'w') as outfile:
     json.dump(sort_orders_dict, outfile)
+
+figureObject, axesObject = plotter.subplots()
+axesObject.pie(share, labels=pieLabels, autopct='%1.2f', startangle=20)
+axesObject.axis('equal')
+axesObject.set_title("India Import Data :: Country-wise", y=-0.15)
+plotter.show()
