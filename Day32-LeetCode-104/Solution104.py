@@ -4,5 +4,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        print(root)
-        
+        # print(root)
+        if root == None:
+            return 0
+       
