@@ -7,4 +7,7 @@ class Solution(object):
         # print(root)
         if root == None:
             return 0
-       
+        lst = self.maxDepth(root.left)
+        rst = self.maxDepth(root.right)
+        md = max(lst,rst)+1
+        return md
