@@ -1,10 +1,10 @@
-This is my 32th Day of 100Days of code 
-Today I Solver leetcode problem (https://leetcode.com/problems/maximum-depth-of-binary-tree/):
+This is my 33th Day of 100Days of code 
+Today I Solver leetcode problem (https://leetcode.com/problems/single-number/):
 
 Referances:
-https://leetcode.com/problems/maximum-depth-of-binary-tree/
+https://leetcode.com/problems/single-number/
 
  ---------------------------------------------------
-|to run simply use: python .\solution104.py       |
+|to run simply use: python .\solution136.py       |
  ---------------------------------------------------
 :)
