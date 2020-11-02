@@ -5,6 +5,6 @@ Referances:
 https://leetcode.com/problems/single-number/
 
  ---------------------------------------------------
-|to run simply use: python .\solution136.py       |
+|to run simply use: python .\solution136.py         |
  ---------------------------------------------------
 :)
