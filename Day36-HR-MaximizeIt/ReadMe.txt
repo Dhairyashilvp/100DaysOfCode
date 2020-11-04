@@ -5,6 +5,6 @@ Referances:
 https://www.hackerrank.com/challenges/maximize-it/problem
 
  ---------------------------------------------------
-|to run simply use: python .\solution104.py        |
+|to run simply use: python .\maximizeIt.py        |
  ---------------------------------------------------
 :)
