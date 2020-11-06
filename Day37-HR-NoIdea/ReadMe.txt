@@ -5,6 +5,6 @@ Referances:
 https://www.hackerrank.com/challenges/no-idea/problem
 
  ---------------------------------------------------
-|to run simply use: python .\maximizeIt.py        |
+|to run simply use: python .\noIdea.py        |
  ---------------------------------------------------
 :)

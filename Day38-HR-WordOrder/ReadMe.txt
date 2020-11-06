@@ -1,10 +1,10 @@
-This is my 36th Day of 100Days of code 
-Today I Solver leetcode problem (https://www.hackerrank.com/challenges/no-idea/problem):
+This is my 38th Day of 100Days of code 
+Today I Solver leetcode problem (https://www.hackerrank.com/challenges/word-order/problem):
 
 Referances:
-https://www.hackerrank.com/challenges/no-idea/problem
+https://www.hackerrank.com/challenges/word-order/problem
 
  ---------------------------------------------------
-|to run simply use: python .\maximizeIt.py        |
+|to run simply use: python .\wordOrder.py        |
  ---------------------------------------------------
 :)
