@@ -45,3 +45,68 @@ Comment_list = ['Oh Mah Gosh!!', 'This Pic is awesome', 'Great', 'Your Galary is
 prev_user_list = pd.read_csv('{}_users_followed_list.csv'.format(strftime("%Y%m%d")), delimiter=',').iloc[:,1:2] # useful to build a user log
 prev_user_list = list(prev_user_list['0'])
 
+for hashtag in hashtag_list:
+    f = 0
+    tag += 1
+    webdriver.get('https://www.instagram.com/explore/tags/'+ hashtag_list[tag] + '/')
+    sleep(5)
+    first_thumbnail = webdriver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[1]/div/div/div[1]/div[1]/a/div')
+    
+    first_thumbnail.click()
+    sleep(randint(1,2))    
+    try:        
+        for x in range(1,200):
+            try:
+                username = webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/header/div[2]/div[1]/div[1]/span/a').text
+                if username not in prev_user_list:
+                    # If we already follow, do not unfollow
+                    if webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/header/div[2]/div[1]/div[2]/button').text == 'Follow':
+                        webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/header/div[2]/div[1]/div[2]/button').click()
+                        new_followed.append(username)
+                        followed += 1
+                        # Liking the picture
+                        button_like = webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/div[3]/section[1]/span[1]/button')
+                        button_like.click()
+                        likes += 1
+                        sleep(randint(18,25))
+                        # Comments and tracker
+                        comm_prob = randint(1,10)
+                        print('{}_{}: {}'.format(hashtag, x,comm_prob))
+                        if comm_prob > 8:
+                            comments += 1
+                            webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/div[3]/section[1]/span[2]/button').click()
+                            comment_box = webdriver.find_element_by_xpath('/html/body/div[4]/div[2]/div/article/div/div[3]/section[3]/div/form/textarea')
+
+                            comment_box.send_keys(choice(Comment_list))
+                            sleep(1)
+                            # Enter to post comment
+                            comment_box.send_keys(Keys.ENTER)
+                            sleep(randint(22,28))
+                    # Next picture
+                    webdriver.find_element_by_link_text('Next').click()
+                    sleep(randint(25,29))
+                else:
+                    webdriver.find_element_by_link_text('Next').click()
+                    sleep(randint(20,26))    
+            except:
+                if f < 10:
+                    print("Failed:",f)
+                    f += 1
+                    webdriver.find_element_by_link_text('Next').click()
+                    sleep(randint(25,29))
+                    continue
+                else:
+                    fail_Ip = int(input("Continue?(1/0):"))
+                    if fail_Ip == 1:
+                        print("User Continued")
+                        f = 0
+                        continue
+                    else:
+                        print("Finaly Failed")
+                        break
+            
+    # some hashtag stops refreshing photos (it may happen sometimes), it continues to the next
+    except:
+        print("next Tag")
+        continue
+
