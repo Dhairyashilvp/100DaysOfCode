@@ -115,3 +115,8 @@ for n in range(0,len(new_followed)):
     
 updated_user_df = pd.DataFrame(prev_user_list)
 updated_user_df.to_csv('{}_users_followed_list.csv'.format(strftime("%Y%m%d")))
+
+
+print('Liked {} photos.'.format(likes))
+print('Commented {} photos.'.format(comments))
+print('Followed {} new people.'.format(followed))
