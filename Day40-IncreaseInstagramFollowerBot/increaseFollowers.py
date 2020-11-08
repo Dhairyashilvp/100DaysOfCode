@@ -110,3 +110,8 @@ for hashtag in hashtag_list:
         print("next Tag")
         continue
 
+for n in range(0,len(new_followed)):
+    prev_user_list.append(new_followed[n])
+    
+updated_user_df = pd.DataFrame(prev_user_list)
+updated_user_df.to_csv('{}_users_followed_list.csv'.format(strftime("%Y%m%d")))
