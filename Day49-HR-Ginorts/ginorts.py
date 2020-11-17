@@ -1,4 +1,4 @@
-s = list(raw_input())
+s = list(input())
 enum = []
 onum = []
 cap = []
