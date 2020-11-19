@@ -12,3 +12,16 @@ w = r.get_random_words()
 word = w[0]
 guesses = ""
 turns = 10
+while turns > 0:
+    fail = 0
+    for char in word:
+        if char in guesses:
+            print (char,end=" ")
+        else:
+            print("_",end=" ")
+            fail+=1
+    if fail == 0:
+        print()
+        print("you WON!")
+        break
+    
