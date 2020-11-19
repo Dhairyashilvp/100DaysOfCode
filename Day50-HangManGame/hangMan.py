@@ -24,4 +24,13 @@ while turns > 0:
         print()
         print("you WON!")
         break
-    
+    print()
+    guess = input("guess a character: ")
+    guesses += guess
+    if guess not in word:
+        turns-=1
+        print("Wrong")
+        print("You have", + turns, 'more guesses')
+        if turns == 0:
+            print("You LOOSE")
+            print(word)
