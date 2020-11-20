@@ -5,6 +5,6 @@ Referances:
 https://www.codechef.com/problems/LUCKFOUR
 
  ---------------------------------------------------
-|to run simply use: python .\ginorts.py        |
+|to run simply use: python .\luckfour.py        |
  ---------------------------------------------------
 :)
