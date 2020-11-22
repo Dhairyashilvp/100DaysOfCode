@@ -1,11 +1,9 @@
-T = input()
-while(T > 0):
-    preety_no = 0
-    l = input()
-    r = input()
-    for i in range(l,r):
-        p = i % 10;
-        if(p == 2 or p == 3 or p == 9):
-            preety_no+=1        
-    print(preety_no)
-    T-=1
+t = int(input())	
+n = 0
+while(t > 0):
+    out =   1
+    n = input()
+    for i in range(2, n):
+        out = out * i
+    print(out)
+    t-=1
