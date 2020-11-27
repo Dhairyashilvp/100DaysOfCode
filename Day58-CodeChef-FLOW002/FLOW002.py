@@ -1,14 +1,8 @@
 T = int(input())
-p = 0
-ari = []
-while(T > 0):
-    p = 0
-    for i in range(3):
-        ari[i] = int(input())
-    for x in ari:
-        p += x
-    if(p == 180):
-        print("YES")
-    else:
-        print("NO")
-    T -= 1 
+while T > 0:
+    ans = 0
+    N = list(map(int, input().split()))
+    if N[1] > 0:
+       ans = N[0] % N[1] 
+    T -= 1
+    print(ans)
