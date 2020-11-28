@@ -1,8 +1,10 @@
-T = int(input())
-while T > 0:
-    ans = 0
-    N = list(map(int, input().split()))
-    if N[1] > 0:
-       ans = N[0] % N[1] 
-    T -= 1
-    print(ans)
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def deleteNode(self, node):
+        node.val = node.next.val
+        node.next = node.next.next
