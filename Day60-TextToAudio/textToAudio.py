@@ -1,5 +1,5 @@
 #This will read the text and then save it to an audio file in the format mentioned like mp3/wav etc
-from gtts import gTTS
+from gtts import gTTS  #pip3 install gTTS
 import os
 f = open('f.txt')
 x= f.read().lower()
