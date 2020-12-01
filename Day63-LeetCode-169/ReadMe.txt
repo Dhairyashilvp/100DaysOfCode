@@ -1,8 +1,8 @@
-This is my 62th Day of 100Days of code 
-Today I Solver leetcode problem (https://leetcode.com/problems/fizz-buzz/):
+This is my 63th Day of 100Days of code 
+Today I Solver leetcode problem (https://leetcode.com/problems/majority-element/):
 
 Referances:
-https://leetcode.com/problems/fizz-buzz/
+https://leetcode.com/problems/majority-element/
 
  ---------------------------------------------------
 |to run simply use: python .\solution.py        |
