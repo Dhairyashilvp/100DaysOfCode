@@ -1,10 +1,5 @@
-This is my 64th Day of 100Days of code 
-Today I Solver leetcode problem (https://www.codechef.com/problems/MUFFINS3):
-
-Referances:
-https://www.codechef.com/problems/MUFFINS3
-
+This is my 68th Day of 100Days of code 
  ---------------------------------------------------
-|to run simply use: python .\solution.py           |
+|to run simply use: python .\speedTest.py           |
  ---------------------------------------------------
 :)
