@@ -5,6 +5,6 @@ Referances:
 https://leetcode.com/problems/median-of-two-sorted-arrays/
 
  ---------------------------------------------------
-|to run simply use: python .\solution.py        |
+|to run simply use: python .\solution.py            |
  ---------------------------------------------------
 :)
