@@ -38,4 +38,8 @@ full_list = uppercaseList + lower_list + digit_list + sym_list
 fillers_char = getRandomzedList(full_list,num_blank_char)
 
 
+#password Generation
+password = upper_char + lower_char + digit_char + sym_char + fillers_char
+random.shuffle(password)
+password= "".join(password)
 
