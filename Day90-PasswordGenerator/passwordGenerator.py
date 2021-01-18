@@ -33,5 +33,9 @@ sym_list +=[chr(i) for i in range (91,97)]
 sym_list +=[chr(i) for i in range (123,127)]
 sym_char = getRandomzedList(sym_list,numberOfSym)
 
+num_blank_char = numberOfChar - numberOfUpper - numberOfLower - numberOfDigits - numberOfSym
+full_list = uppercaseList + lower_list + digit_list + sym_list
+fillers_char = getRandomzedList(full_list,num_blank_char)
+
 
 
