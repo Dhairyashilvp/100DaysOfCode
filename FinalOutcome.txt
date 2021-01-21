@@ -1,0 +1,17 @@
+#100DaysOfCode 
+
+100 Days ago, I took a challenge to solve a coding problem every day for 100 days.  
+
+Day 1 to Day 10: I went through all the basics of the Python language. Revising and studding all the basics and data structures. At first, I was very worried that I will not be able to continue this for 100 Days. 
+
+Day 11 to Day 20: I started with solving coding problems on different platforms like Codechef and Leetcode. As I was new to the language, I came across various optimized solutions and was motivated to do more to achieve that level of skills. I decided that on every 10th Day I will try to solve a real-life problem using python scripts. 
+
+Day 21 to Day 30: Following the same routine for 20 Days resulted into a healthy habit of solving coding problems. 
+
+Day 30 to Day 80: I honestly did not realize how 50 Days passed and now pushing a code to git every day was like doing any other task of my day.  
+
+Day 80 to Day 99: I realized that this Challange has helped me in many ways. I was able to develop a healthy habit and the discipline for 100 Days. I was surprised to see the results of a simple change in my life.  
+
+Day 100: The final day was just like any other day for me as I have realized that there is still lot to learn, and I will continue this habit. Also, I encourage people to take this challenge.  
+
+You can follow my progress during these 100 Days on my GitHub Account. 
